@@ -1,0 +1,9 @@
+.content{
+    display: none;
+}
+.show{
+    display: block;
+}
+.active{
+    border: 2px solid black;
+}
