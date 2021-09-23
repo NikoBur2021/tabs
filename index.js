@@ -2,6 +2,7 @@ const tabs = document.querySelector('.tabs')
 const boxContent = document.querySelector('.box-content')
 boxContent.children[0].classList.add('show')
 let index = 0
+
 tabs.onclick = (event) => {
     const parentsItem = event.target.closest('.tab')
     if (parentsItem !== null) {
